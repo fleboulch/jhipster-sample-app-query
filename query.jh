@@ -1,0 +1,6 @@
+entity Activity {
+	title String required,
+    destination String unique,
+    publishedDate ZonedDateTime required,
+    bookedDate ZonedDateTime
+}
