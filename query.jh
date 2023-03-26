@@ -1,0 +1,12 @@
+entity Activity {
+	title String required,
+    destination String unique,
+    publishedDate ZonedDateTime required,
+    bookedDate ZonedDateTime
+}
+
+paginate all with pagination
+
+service all with serviceClass
+
+// filter all
