@@ -26,7 +26,7 @@
     }
   ],
   "fluentMethods": true,
-  "jpaMetamodelFiltering": false,
+  "jpaMetamodelFiltering": true,
   "name": "Activity",
   "pagination": "pagination",
   "readOnly": false,
